@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Actual Blackjack Game</title>
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css'><link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<div role="group" aria-label="Basic example">
+   <button id="deal" type="button" class="btn btn-dark type">Deal</button>
+   <button id="hit" type="button" class="btn btn-success type">Hit</button>
+   <button id="stay" type="button" class="btn btn-warning type">Stay</button>
+   <button id="shuffle" type="button" class="btn btn-danger type">Shuffle</button>
+ </div>
+ <div id="bet">
+   <button value="10" class="amount" id="ten" type="button" class="btn btn-secondary">$10</button>
+   <button value="20" class="amount" id="twenty" type="button" class="btn btn-secondary">$20</button>
+   <button value="50" class="amount" id="fifty" type="button" class="btn btn-secondary">$50</button>
+   <button value="100" class="amount" id="hundred" type="button" class="btn btn-secondary">$100</button>
+ </div>
+ <div id="cardContainer">
+   <div>Cards Left</div>
+   <div id="cardCount"></div>
+ </div>
+ <div id="status"><span></span></div>
+
+ <div id="player2" class="player">
+   <div class="title">Dealer</div>
+   <div class="scoreContainer">
+     <div>Score</div>
+     <div id="scoreP2"></div>
+   </div>
+   <div class="bankContainer">
+     <div>Bank</div>
+     <div id="betP2"></div>
+   </div>
+   <div id="hand_2"></div>
+ </div>
+ <div id="points_2"></div>
+ <div id="player1" class="player">
+   <div class="title">Player 1</div>
+   <div class="scoreContainer">
+     <div>Score</div>
+     <div id="scoreP1"></div>
+   </div>
+   <div class="bankContainer">
+     <div>Bank</div>
+     <div id="betP1"></div>
+   </div>
+   <div id="hand_1"></div>
+ </div>
+ <div id="points_1"></div>
+<!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js'></script><script  src="./script.js"></script>
+
+</body>
+</html>
