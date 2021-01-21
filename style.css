@@ -7,5 +7,9 @@
 
 .row {
   margin: 10px;
-    max-width: 800px;
+  max-width: 800px;
+}
+
+.memoryGame {
+  max-width: 95%;
 }
