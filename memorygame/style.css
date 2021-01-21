@@ -1,0 +1,51 @@
+.cardBox {
+  width: 75px;
+  height: 100px;
+  margin: 3px;
+  border-radius: 8px;
+  border: 3px solid black;
+  postiion: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.coverCard {
+  width: 75px;
+  height: 100px;
+  border-radius: 5px;
+  background-color: green;
+  position: absolute;
+}
+
+#containerCanvas {
+  font-size: 40px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-itmes: center;
+}
+#cardStorage {
+  height: 50px;
+  width: 600px;
+  border: 3px solid black;
+  display: flex;
+  justify-content: center;
+  align-itmes: center;
+}
+
+#background {
+  background-color: lightblue;
+  height: 600px;
+  width: 600px;
+  display: flex;
+  flex-direction: column;
+  align-itmes: center;
+  justify-content: center;
+}
+#hi {
+  /*   border: 2px solid black; */
+  text-align: center;
+  font-size: 35px;
+}
